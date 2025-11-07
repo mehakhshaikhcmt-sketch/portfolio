@@ -1,0 +1,102 @@
+/* 🌙 Modern Dark Glass Theme for Photography Portfolio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top left, #111, #000);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-weight: 300;
+  color: #bbb;
+  margin-top: 8px;
+}
+
+/* Navigation Tabs */
+nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+nav button:hover,
+nav button.active {
+  background: #fff;
+  color: #111;
+}
+
+/* Gallery Layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.gallery img,
+.gallery video {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover,
+.gallery video:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  width: 100%;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 30px 10px;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
