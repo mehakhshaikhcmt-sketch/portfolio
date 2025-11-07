@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Say Chesse | Photography Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Say Cheese Fotography | Capturing stories through my lens</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Prince Mascarenhas</h1>
-    <p>📸 Capturing stories through my lens</p>
-  </header>
 
-  <nav>
-    <button class="tab active" data-tab="photos">Photos</button>
-    <button class="tab" data-tab="videos">Videos</button>
-  </nav>
+  <!-- 🌅 HERO SECTION -->
+  <section id="hero">
+    <img src="logo.png" alt="Say Cheese Fotography Logo" class="logo">
+    <h1>Say Cheese Fotography</h1>
+    <p class="tagline">Capturing stories through my lens</p>
+    <div class="scroll-down">▼</div>
+  </section>
 
-  <main>
-    <section id="photos" class="tab-content active">
-      <div class="gallery" id="photo-gallery"></div>
-    </section>
+  <!-- 🎠 GALLERY CAROUSEL -->
+  <section id="carousel">
+    <h2>Featured Shots</h2>
+    <div class="carousel-container" id="carouselContainer"></div>
+  </section>
 
-    <section id="videos" class="tab-content">
-      <div class="gallery" id="video-gallery"></div>
-    </section>
-  </main>
+  <!-- 🖼️ ALBUMS SECTION -->
+  <section id="albums">
+    <h2>Albums</h2>
+    <div class="album-grid" id="albumGrid"></div>
+  </section>
 
+  <!-- 🎨 FILTER TEMPLATES -->
+  <section id="filters">
+    <h2>Filter Templates</h2>
+    <div class="filter-grid" id="filterGrid"></div>
+  </section>
+
+  <!-- 💖 BEST STORIES -->
+  <section id="stories">
+    <h2>Best Stories</h2>
+    <div class="stories-container" id="storiesContainer"></div>
+  </section>
+
+  <!-- 📞 FOOTER -->
   <footer>
-    <p>© 2025 Prince Mascarenhas | Made with ❤️</p>
+    <p>© 2025 Say Cheese Fotography</p>
+    <p>Follow me on 
+      <a href="https://instagram.com/" target="_blank">Instagram</a> | 
+      <a href="mailto:yourmail@example.com">Email</a>
+    </p>
   </footer>
 
   <script src="script.js"></script>
