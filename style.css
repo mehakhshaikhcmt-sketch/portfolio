@@ -40,6 +40,9 @@ body {
   position: relative;
   z-index: 2;
 }
+.hero::before {
+  background: rgba(0, 0, 0, 0.5); /* darker overlay for clarity */
+}
 
 .logo {
   width: 250px;             /* Adjust size if needed */
