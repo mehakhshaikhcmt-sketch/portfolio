@@ -1,7 +1,7 @@
 {
   "hero": {
     "background": "images/hero.jpg",
-    "logo": "logo.png"
+    "logo": "https://github.com/mehakhshaikhcmt-sketch/portfolio/blob/main/images/logo.jpg"
   },
   "showcase": [
     { "title": "Golden Hour", "url": "images/show1.jpghttps://github.com/mehakhshaikhcmt-sketch/portfolio/blob/main/images/images.jpg?raw=true" },
