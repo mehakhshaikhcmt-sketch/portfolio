@@ -1,0 +1,11 @@
+{
+  "photos": [
+    { "title": "Golden Hour", "url": "images/photo1.jpg" },
+    { "title": "City Lights", "url": "images/photo2.jpg" },
+    { "title": "Mountain Escape", "url": "images/photo3.jpg" }
+  ],
+  "videos": [
+    { "title": "Ocean Waves", "url": "videos/video1.mp4" },
+    { "title": "Street Time-lapse", "url": "videos/video2.mp4" }
+  ]
+}
