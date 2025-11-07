@@ -42,12 +42,14 @@ body {
 }
 
 .logo {
-  width: 200px;
-  border-radius: 0; /* Keeps original shape */
+  width: 250px;             /* Adjust size if needed */
+  height: auto;
   margin-bottom: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   object-fit: contain;
+  border-radius: 0;         /* Keeps original rectangle */
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3)); /* soft glow */
 }
+
 
 
 .hero h1 {
