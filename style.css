@@ -41,13 +41,14 @@ body {
   z-index: 2;
 }
 
-
 .logo {
-  width: 120px;
-  border-radius: 50%;
+  width: 200px;
+  border-radius: 0; /* Keeps original shape */
   margin-bottom: 20px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  object-fit: contain;
 }
+
 
 .hero h1 {
   font-family: 'Great Vibes', cursive;
