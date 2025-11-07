@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mehak's Photography Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Mascarenhas | Photography Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>📸 Mehak's Photography Portfolio</h1>
+  <header>
+    <h1>Prince Mascarenhas</h1>
+    <p>📸 Capturing stories through my lens</p>
+  </header>
 
-  <section id="photos">
-    <h2>Photos</h2>
-    <div class="gallery" id="photo-gallery"></div>
-  </section>
+  <nav>
+    <button class="tab active" data-tab="photos">Photos</button>
+    <button class="tab" data-tab="videos">Videos</button>
+  </nav>
 
-  <section id="videos">
-    <h2>Videos</h2>
-    <div class="gallery" id="video-gallery"></div>
-  </section>
+  <main>
+    <section id="photos" class="tab-content active">
+      <div class="gallery" id="photo-gallery"></div>
+    </section>
+
+    <section id="videos" class="tab-content">
+      <div class="gallery" id="video-gallery"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Prince Mascarenhas | Made with ❤️</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
