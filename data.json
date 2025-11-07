@@ -1,79 +1,23 @@
 {
-  "hero": {
-    "background": "images/hero.jpg",
-    "logo": "images/logo.jpg"
-  },
-  "showcase": [
-    { "title": "Golden Hour", "url": "images/show1.jpghttps://github.com/mehakhshaikhcmt-sketch/portfolio/blob/main/images/images.jpg?raw=true" },
-    { "title": "City Lights", "url": "images/show2.jpg" },
-    { "title": "Mountain Mist", "url": "images/show3.jpg" }
+  "gallery": [
+    { "title": "Sunset Bliss", "url": "images/photo1.jpg" },
+    { "title": "Bridal Glow", "url": "images/photo2.jpg" },
+    { "title": "Party Lights", "url": "images/photo3.jpg" }
   ],
   "albums": [
-    {
-      "title": "Portrait",
-      "cover": "images/albums/portrait_cover.jpg",
-      "items": [
-        "images/albums/portrait1.jpg",
-        "images/albums/portrait2.jpg",
-        "images/albums/portrait3.jpg"
-      ]
-    },
-    {
-      "title": "Wedding",
-      "cover": "images/albums/wedding_cover.jpg",
-      "items": [
-        "images/albums/wedding1.jpg",
-        "images/albums/wedding2.jpg"
-      ]
-    },
-    {
-      "title": "Party",
-      "cover": "images/albums/party_cover.jpg",
-      "items": [
-        "images/albums/party1.jpg",
-        "images/albums/party2.jpg"
-      ]
-    },
-    {
-      "title": "Event",
-      "cover": "images/albums/event_cover.jpg",
-      "items": [
-        "images/albums/event1.jpg",
-        "images/albums/event2.jpg"
-      ]
-    }
+    { "name": "Portrait" },
+    { "name": "Wedding" },
+    { "name": "Party" },
+    { "name": "Event" }
   ],
   "filters": [
-    {
-      "name": "Warm Film",
-      "preview": "images/filters/warm.jpg",
-      "css": "contrast(1.04) saturate(1.18) sepia(0.12) hue-rotate(-6deg)"
-    },
-    {
-      "name": "Cool Moody",
-      "preview": "images/filters/cool.jpg",
-      "css": "contrast(1.02) saturate(0.85) hue-rotate(200deg) brightness(0.96)"
-    },
-    {
-      "name": "Black & White",
-      "preview": "images/filters/bw.jpg",
-      "css": "grayscale(1) contrast(1.1)"
-    }
+    { "name": "Warm Glow" },
+    { "name": "Moody Shadow" },
+    { "name": "Soft Pastel" },
+    { "name": "Cinematic Tone" }
   ],
   "stories": [
-    {
-      "title": "Rooftop Sunset - A Love Story",
-      "media": "images/stories/story1.jpg",
-      "desc": "A candid moment during golden hour."
-    },
-    {
-      "title": "Festival Night",
-      "media": "images/stories/story2.jpg",
-      "desc": "Capturing the energy after sunset."
-    }
-  ],
-  "socials": [
-    { "name": "Instagram", "url": "https://instagram.com/yourhandle" },
-    { "name": "Email", "url": "mailto:youremail@example.com" }
+    { "title": "Golden Hour Bride", "url": "images/story1.jpg", "caption": "A timeless bridal moment." },
+    { "title": "Dance of Lights", "url": "images/story2.jpg", "caption": "Capturing joy under colors." }
   ]
 }
