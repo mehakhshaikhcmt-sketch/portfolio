@@ -1,11 +1,79 @@
 {
-  "photos": [
-    { "title": "Golden Hour", "url": "images/download.jpg" },
-    { "title": "City Lights", "url": "images/photo2.jpg" },
-    { "title": "Mountain Escape", "url": "images/photo3.jpg" }
+  "hero": {
+    "background": "images/hero.jpg",
+    "logo": "logo.png"
+  },
+  "showcase": [
+    { "title": "Golden Hour", "url": "images/show1.jpg" },
+    { "title": "City Lights", "url": "images/show2.jpg" },
+    { "title": "Mountain Mist", "url": "images/show3.jpg" }
   ],
-  "videos": [
-    { "title": "Ocean Waves", "url": "videos/video1.mp4" },
-    { "title": "Street Time-lapse", "url": "videos/video2.mp4" }
+  "albums": [
+    {
+      "title": "Portrait",
+      "cover": "images/albums/portrait_cover.jpg",
+      "items": [
+        "images/albums/portrait1.jpg",
+        "images/albums/portrait2.jpg",
+        "images/albums/portrait3.jpg"
+      ]
+    },
+    {
+      "title": "Wedding",
+      "cover": "images/albums/wedding_cover.jpg",
+      "items": [
+        "images/albums/wedding1.jpg",
+        "images/albums/wedding2.jpg"
+      ]
+    },
+    {
+      "title": "Party",
+      "cover": "images/albums/party_cover.jpg",
+      "items": [
+        "images/albums/party1.jpg",
+        "images/albums/party2.jpg"
+      ]
+    },
+    {
+      "title": "Event",
+      "cover": "images/albums/event_cover.jpg",
+      "items": [
+        "images/albums/event1.jpg",
+        "images/albums/event2.jpg"
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "name": "Warm Film",
+      "preview": "images/filters/warm.jpg",
+      "css": "contrast(1.04) saturate(1.18) sepia(0.12) hue-rotate(-6deg)"
+    },
+    {
+      "name": "Cool Moody",
+      "preview": "images/filters/cool.jpg",
+      "css": "contrast(1.02) saturate(0.85) hue-rotate(200deg) brightness(0.96)"
+    },
+    {
+      "name": "Black & White",
+      "preview": "images/filters/bw.jpg",
+      "css": "grayscale(1) contrast(1.1)"
+    }
+  ],
+  "stories": [
+    {
+      "title": "Rooftop Sunset - A Love Story",
+      "media": "images/stories/story1.jpg",
+      "desc": "A candid moment during golden hour."
+    },
+    {
+      "title": "Festival Night",
+      "media": "images/stories/story2.jpg",
+      "desc": "Capturing the energy after sunset."
+    }
+  ],
+  "socials": [
+    { "name": "Instagram", "url": "https://instagram.com/yourhandle" },
+    { "name": "Email", "url": "mailto:youremail@example.com" }
   ]
 }
