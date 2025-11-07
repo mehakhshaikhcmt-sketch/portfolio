@@ -40,4 +40,116 @@ body {
   font-size: 1.3rem;
   font-weight: 300;
   color: #fff;
-  margi
+  margin-top: 10px;
+}
+
+/* Section Titles */
+section h2 {
+  text-align: center;
+  margin: 50px 0 30px;
+  font-size: 2rem;
+  color: #ffce54;
+}
+
+/* Carousel */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.carousel-container img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.carousel-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Albums */
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.album-card {
+  background: linear-gradient(145deg, #202020, #2a2a2a);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.album-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Filters */
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.filter-card {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, #ffce54, #ff6b6b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Stories */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.story-card {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.story-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.story-card p {
+  padding: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #111;
+  font-size: 0.9rem;
+}
+
+.socials a {
+  color: #ffce54;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
