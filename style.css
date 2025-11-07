@@ -13,15 +13,34 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), 
-              url('images/bg1.jpg') center/cover no-repeat;
   height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: url("images/Background.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  position: relative;
 }
+
+/* ✨ Low-opacity overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* lower = more visible photo */
+  z-index: 1;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
 
 .logo {
   width: 120px;
